@@ -1,0 +1,15 @@
+giscus-widget {
+  float: left;
+  display: flex;
+  margin: auto;
+  max-width: 640px;
+}
+/* or... */
+#comments {
+  /* ... */
+}
+/* or... */
+#comments::part(iframe) {
+  /* ... */
+}
+/* etc. */
