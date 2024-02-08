@@ -32,7 +32,6 @@ const CollapsibleGoogleForm = () => {
     marginWidth: '0',
     border: 'none', // To remove border
     width: '640px',
-    height: '406px',
   };
 
   return (
@@ -62,14 +61,6 @@ const CollapsibleGiscus = () => {
 
   const containerStyle = {
     textAlign: 'left', // Aligns the content to the left
-  };
-
-  const iframeStyle = {
-    marginHeight: '0',
-    marginWidth: '0',
-    border: 'none', // To remove border
-    width: '640px',
-    height: '406px',
   };
 
   return (
