@@ -24,7 +24,7 @@ const CollapsibleGoogleForm = () => {
   const toggleOpen = () => setIsOpen(!isOpen);
 
   const containerStyle = {
-    textAlign: 'left', // Aligns the content to the left
+    textAlign: 'left' as const, // Aligns the content to the left
   };
 
   const iframeStyle = {
@@ -60,7 +60,7 @@ const CollapsibleGiscus = () => {
   const toggleOpen = () => setIsOpen(!isOpen);
 
   const containerStyle = {
-    textAlign: 'left', // Aligns the content to the left
+    textAlign: 'left' as const, // Aligns the content to the left
   };
 
   return (
