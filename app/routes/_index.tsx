@@ -32,6 +32,7 @@ const CollapsibleGoogleForm = () => {
     marginWidth: '0',
     border: 'none', // To remove border
     width: '640px',
+    height: '100%', // Make the iframe take up the full height
   };
 
   return (
