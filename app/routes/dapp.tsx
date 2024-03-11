@@ -1,4 +1,4 @@
-import { Button } from 'shadcn';
+import { Button } from "~/components/ui/button"
 
 export default function DApp() {
   return (
