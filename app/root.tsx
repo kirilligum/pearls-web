@@ -28,10 +28,10 @@ export default function App() {
           <h1>Pearls of Wisdom</h1>
           <nav>
             <ul className="list-none p-0">
-              <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/">Home</Link></li>
-              <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/whitepaper">Whitepaper</Link></li>
-              <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/pitchdeck">Pitchdeck</Link></li>
-              <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/dapp">dApp</Link></li>
+              <li className="inline mr-5"><Link to="/">Home</Link></li>
+              <li className="inline mr-5"><Link to="/whitepaper">Whitepaper</Link></li>
+              <li className="inline mr-5"><Link to="/pitchdeck">Pitchdeck</Link></li>
+              <li className="inline mr-5"><Link to="/dapp">dApp</Link></li>
             </ul>
           </nav>
         </header>
