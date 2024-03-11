@@ -24,10 +24,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <header style={{ background: '#f0f0f0', padding: '20px', marginBottom: '20px' }}>
+        <header className="bg-gray-100 p-5 mb-5">
           <h1>Pearls of Wisdom</h1>
           <nav>
-            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+            <ul className="list-none p-0">
               <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/">Home</Link></li>
               <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/whitepaper">Whitepaper</Link></li>
               <li style={{ display: 'inline', marginRight: '20px' }}><Link to="/pitchdeck">Pitchdeck</Link></li>
